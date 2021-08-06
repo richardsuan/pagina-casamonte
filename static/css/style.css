@@ -3,24 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-  
+body{
+    font-family: 'Style Script', cursive;
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    
+}  
 header {
     background-color: #02b097;
-    text-align: center;
-}
-header h1{
-    color: white;
-}
-header img{
-    display:block;
-    margin:auto;
-    width: 120px;
+    
+    width: 100%;
     
 }
-
+header h1{
+    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+   // background-color: black;
+    
+}
+.logo{
+    
+    padding: 10px 0;
+    
+}
+.logo img{
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+.banner{
+    margin: auto;
+    background-color: rgba(68, 70, 69,0.4);
+    max-width: 400px;
+    
+}
+.cmenu{
+    background-color: #444645;
+    height: 30px;
+}
+.menu{
+   
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.menu a{
+    padding: 0 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: initial;
+    font-size: 20px;
+}
+.menu a:hover{
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+    min-width: 18%;
+    font-size: 25px;
+    
+    
+}
+/*
 nav {
-    /*display: flex;*/
+  
     padding: 10px;
     background-color: #444645;
     text-align: center;
@@ -44,10 +98,11 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #ddd;
     color: black;
-  }
+  }*/
 .row {  
     display: flex;
     flex-wrap: wrap;
+    min-height: calc(100vh - 50px);
 }
 .side {
     flex: 30%;
@@ -59,10 +114,12 @@ nav ul li a:hover {
     
     flex: 70%;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
 }
-.contactenos { font-size: 500px;
+.contactenos { 
+  
   display: flex;
+  width: 100%;
   /*align-items: center;*/
   justify-content: center;
   background-color: #02b097;
@@ -78,11 +135,28 @@ nav ul li a:hover {
 .main img {
     width: 120px;
 }
+
+
+
 .final{
+    bottom: 0;
+    max-width: 1800px;
     background-color: #444645;
+    
+}
+.final > div{
+    
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 .final img {
-    padding: 5px;
+    
+    padding: 10px;
     width: 50px;
     
 }
