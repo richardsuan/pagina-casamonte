@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Style Script', cursive;
-}
+
 .container{
     width: 100%;
     max-width: 1800px;
@@ -24,7 +22,7 @@ header h1{
     color: white;
     text-decoration: none;
     font-size: 50px;
-   // background-color: black;
+   
     
 }
 .logo{
@@ -159,4 +157,16 @@ nav ul li a:hover {
     padding: 10px;
     width: 50px;
     
+}
+.calistoga{
+    font-family: 'Calistoga', cursive;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+monospace{
+    font-family: 'Space Mono', monospace;
 }
