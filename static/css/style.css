@@ -160,6 +160,9 @@ nav ul li a:hover {
 }
 .calistoga{
     font-family: 'Calistoga', cursive;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 12px;
 }
 .lato{
     font-family: 'Lato', sans-serif;
@@ -171,5 +174,7 @@ monospace{
     font-family: 'Space Mono', monospace;
 }
 roboto{
+    
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
